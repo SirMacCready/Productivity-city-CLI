@@ -1,0 +1,246 @@
+{
+    "Negative": [
+        {
+            "name": "Plague Outbreak",
+            "desc": "A deadly plague sweeps through the village, killing many inhabitants.",
+            "Severity": 3,
+            "Impact": 9
+        },
+        {
+            "name": "Bandit Raid",
+            "desc": "Bandits raid the village, stealing resources and causing destruction.",
+            "Severity": 2,
+            "Impact": 7
+        },
+        {
+            "name": "Failed Harvest",
+            "desc": "The harvest fails due to bad weather, leading to food shortages.",
+            "Severity": 3,
+            "Impact": 8
+        },
+        {
+            "name": "Lord's Tax Increase",
+            "desc": "The local lord increases taxes, reducing the villagers' income.",
+            "Severity": 2,
+            "Impact": 6
+        },
+        {
+            "name": "Drought",
+            "desc": "A severe drought affects crops and livestock.",
+            "Severity": 3,
+            "Impact": 7
+        },
+        {
+            "name": "Fire",
+            "desc": "A fire destroys several houses and the village mill.",
+            "Severity": 3,
+            "Impact": 8
+        },
+        {
+            "name": "Wolf Attacks",
+            "desc": "Wolves attack livestock, causing losses for farmers.",
+            "Severity": 1,
+            "Impact": 4
+        },
+        {
+            "name": "Flood",
+            "desc": "Heavy rains cause a flood, damaging homes and fields.",
+            "Severity": 3,
+            "Impact": 7
+        },
+        {
+            "name": "Disease in Livestock",
+            "desc": "A disease spreads among the livestock, reducing their numbers.",
+            "Severity": 2,
+            "Impact": 6
+        },
+        {
+            "name": "Feud with Neighboring Village",
+            "desc": "A feud with a neighboring village disrupts trade and causes tension.",
+            "Severity": 2,
+            "Impact": 5
+        },
+        {
+            "name": "Cursed Land",
+            "desc": "Rumors of cursed land scare villagers, reducing productivity.",
+            "Severity": 1,
+            "Impact": 3
+        },
+        {
+            "name": "Blacksmith's Accident",
+            "desc": "The village blacksmith has an accident, reducing tool and weapon production.",
+            "Severity": 2,
+            "Impact": 5
+        },
+        {
+            "name": "Church Collapse",
+            "desc": "The village church collapses, causing a loss of community morale.",
+            "Severity": 2,
+            "Impact": 6
+        },
+        {
+            "name": "Lost Trade Caravan",
+            "desc": "A trade caravan is lost, causing a shortage of goods.",
+            "Severity": 2,
+            "Impact": 5
+        },
+        {
+            "name": "Noble's Hunt",
+            "desc": "A noble's hunt disrupts farming and causes damage to crops.",
+            "Severity": 1,
+            "Impact": 4
+        },
+        {
+            "name": "Witchcraft Accusations",
+            "desc": "Accusations of witchcraft cause fear and division in the village.",
+            "Severity": 2,
+            "Impact": 5
+        },
+        {
+            "name": "Bridge Collapse",
+            "desc": "The village bridge collapses, disrupting travel and trade.",
+            "Severity": 2,
+            "Impact": 6
+        },
+        {
+            "name": "Invasion",
+            "desc": "An invading army attacks the village, causing destruction and loss of life.",
+            "Severity": 3,
+            "Impact": 9
+        },
+        {
+            "name": "Cattle Theft",
+            "desc": "Thieves steal cattle, reducing the village's livestock.",
+            "Severity": 1,
+            "Impact": 4
+        },
+        {
+            "name": "Well Poisoning",
+            "desc": "The village well is poisoned, causing illness and death.",
+            "Severity": 3,
+            "Impact": 8
+        }
+    ],
+    "Positive": [
+        {
+            "name": "Good Harvest",
+            "desc": "A bountiful harvest ensures plenty of food for the village.",
+            "Severity": 1,
+            "Impact": 8
+        },
+        {
+            "name": "New Well",
+            "desc": "A new well is dug, providing fresh water for the village.",
+            "Severity": 1,
+            "Impact": 6
+        },
+        {
+            "name": "Market Day",
+            "desc": "A successful market day brings in extra income for the villagers.",
+            "Severity": 1,
+            "Impact": 5
+        },
+        {
+            "name": "Birth of Heir",
+            "desc": "The birth of the lord's heir ensures stability and reduces taxes.",
+            "Severity": 1,
+            "Impact": 7
+        },
+        {
+            "name": "New Blacksmith",
+            "desc": "A skilled blacksmith sets up shop, improving tool and weapon production.",
+            "Severity": 1,
+            "Impact": 6
+        },
+        {
+            "name": "Pilgrimage",
+            "desc": "A pilgrimage brings visitors and income to the village.",
+            "Severity": 1,
+            "Impact": 5
+        },
+        {
+            "name": "New Mill",
+            "desc": "A new mill is built, increasing the village's grain processing capacity.",
+            "Severity": 1,
+            "Impact": 7
+        },
+        {
+            "name": "Favorable Weather",
+            "desc": "Favorable weather leads to a successful planting season.",
+            "Severity": 1,
+            "Impact": 6
+        },
+        {
+            "name": "New Trade Route",
+            "desc": "A new trade route opens up, bringing in more goods and income.",
+            "Severity": 1,
+            "Impact": 7
+        },
+        {
+            "name": "Festival",
+            "desc": "A village festival boosts morale and productivity.",
+            "Severity": 1,
+            "Impact": 5
+        },
+        {
+            "name": "New Church",
+            "desc": "A new church is built, increasing community morale and attracting pilgrims.",
+            "Severity": 1,
+            "Impact": 6
+        },
+        {
+            "name": "Successful Hunt",
+            "desc": "A successful hunt provides extra food for the village.",
+            "Severity": 1,
+            "Impact": 5
+        },
+        {
+            "name": "New Lord",
+            "desc": "A new lord takes over, reducing taxes and improving village life.",
+            "Severity": 1,
+            "Impact": 7
+        },
+        {
+            "name": "New Bridge",
+            "desc": "A new bridge is built, improving travel and trade.",
+            "Severity": 1,
+            "Impact": 6
+        },
+        {
+            "name": "Discovery of Herbs",
+            "desc": "The discovery of medicinal herbs improves the health of the villagers.",
+            "Severity": 1,
+            "Impact": 5
+        },
+        {
+            "name": "New Livestock",
+            "desc": "New livestock are acquired, increasing the village's resources.",
+            "Severity": 1,
+            "Impact": 6
+        },
+        {
+            "name": "New Inn",
+            "desc": "A new inn is built, attracting travelers and increasing income.",
+            "Severity": 1,
+            "Impact": 5
+        },
+        {
+            "name": "New School",
+            "desc": "A new school is established, improving education and skills in the village.",
+            "Severity": 1,
+            "Impact": 6
+        },
+        {
+            "name": "New Road",
+            "desc": "A new road is built, improving travel and trade.",
+            "Severity": 1,
+            "Impact": 5
+        },
+        {
+            "name": "New Bakery",
+            "desc": "A new bakery opens, providing fresh bread and increasing morale.",
+            "Severity": 1,
+            "Impact": 4
+        }
+    ]
+}
