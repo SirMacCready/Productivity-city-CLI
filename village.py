@@ -1,8 +1,9 @@
-from score_checker import main 
+from score.score_checker import score_checking 
 
-class village : 
+class Village : 
     def __init__(self, data=None):
-        data = data or self.DEFAULT_DATA
+        if data is None:
+            data = {}  # Assure une base dictionnaire
 
         self.name = data.get("name", "Unnamed Village")
 
@@ -14,7 +15,7 @@ class village :
 
         # Calcul de la capacité d'accueil initiale
         self.citizens = self.calculate_capacity()
-        self.houses = self.citizens % 4
+        self.houses = self.citizens // 4  # correction logique : nombre de maisons entières
 
     def calculate_capacity(self):
         """
@@ -30,8 +31,8 @@ class village :
         import json
         with open(filepath) as file :
             data = json.load(file)
+            if data is None :
+                new_village = cls()
+                json.dump(new_village,file)
         return cls(data)
-    
-    def display() : 
-        print(f"Welcome to {self.name}")
-        print(f"population : {len(self.citizens)}")
+        
