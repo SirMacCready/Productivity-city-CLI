@@ -1,13 +1,12 @@
 import json
 import re
-
 class ScoringEngine:
     """
     Classe de scoring d'activité à partir d'un fichier de configuration JSON.
     Chaque activité est scorée selon une regex associée à une catégorie et un multiplicateur.
     """
 
-    def __init__(self, config_path='config.json'):
+    def __init__(self, config_path="config_files.config.json"):
         self.categories = {}
 
         with open(config_path, 'r', encoding='utf-8') as f:

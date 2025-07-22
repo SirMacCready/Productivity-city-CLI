@@ -1,5 +1,5 @@
 import requests
-from productivity_scoring import ScoringEngine
+from score.productivity_scoring import ScoringEngine
 from datetime import datetime, timezone
 from dateutil.parser import isoparse
 
@@ -21,9 +21,9 @@ def normalize_score(total_score, total_duration, max_multiplier=30):
     # Clamp the normalized score between -10 and 10
     return max(-10, min(10, normalized))
 
-def main():
+def score_checking():
     # Initialize scoring engine with config file
-    engine = ScoringEngine("config.json")
+    engine = ScoringEngine("./config_files/config.json")
     
     # Get today's midnight in UTC to filter today's events
     midnight = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
@@ -66,10 +66,7 @@ def main():
                 print(f"Error processing an event: {e}")
 
     normalized = normalize_score(total_score, total_duration)
-
-    print(f"Raw score: {total_score:.2f}")
-    print(f"Total duration: {total_duration / 3600:.2f} hours")
-    print(f"Normalized score: {normalized:.2f} / 10")
+    return (total_score,normalized)
 
 if __name__ == "__main__":
-    main()
+    score_checking()
